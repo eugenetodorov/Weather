@@ -118,15 +118,15 @@
 		042907FE2235241500D2F2E9 /* WeatherApp */ = {
 			isa = PBXGroup;
 			children = (
+				0429083D2235282300D2F2E9 /* Libraries */,
+				042908312235270C00D2F2E9 /* Resources */,
+				04290838223527A300D2F2E9 /* Constants */,
+				04290839223527E300D2F2E9 /* Core */,
+				042908342235276600D2F2E9 /* UI */,
+				0429083E2235283300D2F2E9 /* Supporting Files */,
 				042907FF2235241500D2F2E9 /* AppDelegate.h */,
 				042908002235241500D2F2E9 /* AppDelegate.m */,
-				042908022235241500D2F2E9 /* ViewController.h */,
-				042908032235241500D2F2E9 /* ViewController.m */,
-				042908052235241500D2F2E9 /* Main.storyboard */,
-				042908082235241800D2F2E9 /* Assets.xcassets */,
-				0429080A2235241800D2F2E9 /* LaunchScreen.storyboard */,
 				0429080D2235241800D2F2E9 /* Info.plist */,
-				0429080E2235241800D2F2E9 /* main.m */,
 			);
 			path = WeatherApp;
 			sourceTree = "<group>";
@@ -149,6 +149,166 @@
 			path = WeatherAppUITests;
 			sourceTree = "<group>";
 		};
+		042908312235270C00D2F2E9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				042908332235273600D2F2E9 /* Fonts */,
+				042908322235271E00D2F2E9 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		042908322235271E00D2F2E9 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		042908332235273600D2F2E9 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		042908342235276600D2F2E9 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				042908372235278A00D2F2E9 /* Base */,
+				042908352235277A00D2F2E9 /* Views */,
+				042908362235278200D2F2E9 /* Screens */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		042908352235277A00D2F2E9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		042908362235278200D2F2E9 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				0429084322352B1600D2F2E9 /* Main */,
+				0429084422352B2100D2F2E9 /* Launch */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		042908372235278A00D2F2E9 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		04290838223527A300D2F2E9 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		04290839223527E300D2F2E9 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				0429083A223527F800D2F2E9 /* Models */,
+				0429083B223527FF00D2F2E9 /* Managers */,
+				0429083C2235280900D2F2E9 /* Repositories */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		0429083A223527F800D2F2E9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0429083B223527FF00D2F2E9 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		0429083C2235280900D2F2E9 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		0429083D2235282300D2F2E9 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				0429083F2235284E00D2F2E9 /* Helpers */,
+				042908402235285600D2F2E9 /* Utils */,
+				042908412235285E00D2F2E9 /* Extension */,
+				042908422235286600D2F2E9 /* Protocols */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		0429083E2235283300D2F2E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				042908082235241800D2F2E9 /* Assets.xcassets */,
+				0429080E2235241800D2F2E9 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0429083F2235284E00D2F2E9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		042908402235285600D2F2E9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		042908412235285E00D2F2E9 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		042908422235286600D2F2E9 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		0429084322352B1600D2F2E9 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				042908022235241500D2F2E9 /* ViewController.h */,
+				042908032235241500D2F2E9 /* ViewController.m */,
+				042908052235241500D2F2E9 /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		0429084422352B2100D2F2E9 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				0429080A2235241800D2F2E9 /* LaunchScreen.storyboard */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
 		73DF76501472417DCB6F14C1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -159,7 +319,6 @@
 				56A58637474D065D1CB7FBDD /* Pods-WeatherAppUITests.debug.xcconfig */,
 				6F39CC96059306DBFA7DD08A /* Pods-WeatherAppUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -555,7 +714,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = eugerne.WeatherApp;
+				PRODUCT_BUNDLE_IDENTIFIER = eugene.WeatherApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -572,7 +731,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = eugerne.WeatherApp;
+				PRODUCT_BUNDLE_IDENTIFIER = eugene.WeatherApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
