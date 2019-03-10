@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04226FBA2235462E00AC8418 /* EGCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 04226FB92235462E00AC8418 /* EGCore.m */; };
+		04226FBD223549F900AC8418 /* EGDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04226FBC223549F900AC8418 /* EGDataManager.m */; };
 		042908012235241500D2F2E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 042908002235241500D2F2E9 /* AppDelegate.m */; };
 		042908042235241500D2F2E9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042908032235241500D2F2E9 /* ViewController.m */; };
 		042908072235241500D2F2E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042908052235241500D2F2E9 /* Main.storyboard */; };
@@ -38,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04226FB82235462E00AC8418 /* EGCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EGCore.h; sourceTree = "<group>"; };
+		04226FB92235462E00AC8418 /* EGCore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EGCore.m; sourceTree = "<group>"; };
+		04226FBB223549F900AC8418 /* EGDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EGDataManager.h; sourceTree = "<group>"; };
+		04226FBC223549F900AC8418 /* EGDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EGDataManager.m; sourceTree = "<group>"; };
 		042907FC2235241500D2F2E9 /* WeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		042907FF2235241500D2F2E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		042908002235241500D2F2E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -218,6 +224,8 @@
 				0429083A223527F800D2F2E9 /* Models */,
 				0429083B223527FF00D2F2E9 /* Managers */,
 				0429083C2235280900D2F2E9 /* Repositories */,
+				04226FB82235462E00AC8418 /* EGCore.h */,
+				04226FB92235462E00AC8418 /* EGCore.m */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -232,6 +240,8 @@
 		0429083B223527FF00D2F2E9 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				04226FBB223549F900AC8418 /* EGDataManager.h */,
+				04226FBC223549F900AC8418 /* EGDataManager.m */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -557,7 +567,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04226FBA2235462E00AC8418 /* EGCore.m in Sources */,
 				042908042235241500D2F2E9 /* ViewController.m in Sources */,
+				04226FBD223549F900AC8418 /* EGDataManager.m in Sources */,
 				0429080F2235241800D2F2E9 /* main.m in Sources */,
 				042908012235241500D2F2E9 /* AppDelegate.m in Sources */,
 			);
