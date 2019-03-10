@@ -44,6 +44,7 @@
 		04226FB92235462E00AC8418 /* EGCore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EGCore.m; sourceTree = "<group>"; };
 		04226FBB223549F900AC8418 /* EGDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EGDataManager.h; sourceTree = "<group>"; };
 		04226FBC223549F900AC8418 /* EGDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EGDataManager.m; sourceTree = "<group>"; };
+		04226FBE22354D3200AC8418 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		042907FC2235241500D2F2E9 /* WeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		042907FF2235241500D2F2E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		042908002235241500D2F2E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -269,6 +270,7 @@
 			children = (
 				042908082235241800D2F2E9 /* Assets.xcassets */,
 				0429080E2235241800D2F2E9 /* main.m */,
+				04226FBE22354D3200AC8418 /* PrefixHeader.pch */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -744,6 +746,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(PROJECT)/Supporting Files/PrefixHeader.pch";
 				INFOPLIST_FILE = WeatherApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -761,6 +764,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(PROJECT)/Supporting Files/PrefixHeader.pch";
 				INFOPLIST_FILE = WeatherApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

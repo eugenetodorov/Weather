@@ -6,6 +6,8 @@
 //  Copyright © 2019 Mac mini. All rights reserved.
 //
 
+//https://www.weatherbit.io/api/swaggerui/weather-api-v2#/
+
 #import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
