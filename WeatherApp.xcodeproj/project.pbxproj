@@ -17,6 +17,7 @@
 		0429080F2235241800D2F2E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0429080E2235241800D2F2E9 /* main.m */; };
 		042908192235241800D2F2E9 /* WeatherAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 042908182235241800D2F2E9 /* WeatherAppTests.m */; };
 		042908242235241800D2F2E9 /* WeatherAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 042908232235241800D2F2E9 /* WeatherAppUITests.m */; };
+		042F77DE223E865C00F6D8AD /* EGFetchWeatherData.m in Sources */ = {isa = PBXBuildFile; fileRef = 042F77DD223E865C00F6D8AD /* EGFetchWeatherData.m */; };
 		39DCF284CFEF9846C2BFBDB7 /* libPods-WeatherApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF0BCC3EF73BDD5F719D8CF3 /* libPods-WeatherApp.a */; };
 		457E99460051AA134B565039 /* libPods-WeatherAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C8A2E087548019202F1EA9B /* libPods-WeatherAppTests.a */; };
 		EF013EE46CB843B5472E7BD5 /* libPods-WeatherAppUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FA4CDC44712D24DB413382B /* libPods-WeatherAppUITests.a */; };
@@ -61,6 +62,8 @@
 		0429081F2235241800D2F2E9 /* WeatherAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		042908232235241800D2F2E9 /* WeatherAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeatherAppUITests.m; sourceTree = "<group>"; };
 		042908252235241800D2F2E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		042F77DC223E865C00F6D8AD /* EGFetchWeatherData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EGFetchWeatherData.h; sourceTree = "<group>"; };
+		042F77DD223E865C00F6D8AD /* EGFetchWeatherData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EGFetchWeatherData.m; sourceTree = "<group>"; };
 		1C8A2E087548019202F1EA9B /* libPods-WeatherAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeatherAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		56A58637474D065D1CB7FBDD /* Pods-WeatherAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-WeatherAppUITests/Pods-WeatherAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5FA4CDC44712D24DB413382B /* libPods-WeatherAppUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeatherAppUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -250,6 +253,8 @@
 		0429083C2235280900D2F2E9 /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
+				042F77DC223E865C00F6D8AD /* EGFetchWeatherData.h */,
+				042F77DD223E865C00F6D8AD /* EGFetchWeatherData.m */,
 			);
 			path = Repositories;
 			sourceTree = "<group>";
@@ -570,6 +575,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04226FBA2235462E00AC8418 /* EGCore.m in Sources */,
+				042F77DE223E865C00F6D8AD /* EGFetchWeatherData.m in Sources */,
 				042908042235241500D2F2E9 /* ViewController.m in Sources */,
 				04226FBD223549F900AC8418 /* EGDataManager.m in Sources */,
 				0429080F2235241800D2F2E9 /* main.m in Sources */,
